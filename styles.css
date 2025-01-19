@@ -15,16 +15,90 @@ header {
 }
 
 .navbar {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+.nav-title {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
 .nav-links>ul {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 10px;
+    justify-content: space-between;
+    gap: 20px;
     list-style: none;
     text-decoration: none;
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.nav-links li>a {
+    text-decoration-line: none;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+}
+
+.banner-title {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.banner-des {
+    color: rgb(58, 58, 58);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    padding: 10px 24px;
+    max-width: 196px;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ecommerce-container {
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.ecommerce-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
 }
